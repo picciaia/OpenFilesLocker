@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OpenFilesLocker" GeneratedClassName="AppSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GenerationDelay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="CheckLocksDelay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="RemoteLocations" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;\\localhost\mirror\remote&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="OpenFilesFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">openfiles.dat</Value>
+    </Setting>
+    <Setting Name="LocalShare" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\temp\mirror\local</Value>
+    </Setting>
+    <Setting Name="WorkingFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\temp</Value>
+    </Setting>
+    <Setting Name="Exceptions" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;filesync.metadata&lt;/string&gt;
+  &lt;string&gt;*.amb&lt;/string&gt;
+  &lt;string&gt;openfiles.dat&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LogVerbosity" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
